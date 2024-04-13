@@ -8,6 +8,7 @@ Similarly, the correlation coefficient between 'price' and 'odometer' is approxi
 
 
 ![image](https://github.com/Soha1950/As11.1/assets/160794678/50fc204a-4cd7-40bd-ae83-8f294232c661)
+
 Odometer Reading (Mileage):
 
 The x-axis represents the odometer reading of the cars, which indicates their mileage.
