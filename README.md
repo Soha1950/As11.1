@@ -59,3 +59,25 @@ The distribution of data points suggests the spread of prices across different o
 Trend:
 
 From the plot, we can observe whether there is any discernible pattern or trend between odometer reading and price. For example, we might expect older cars with higher mileage to be priced lower compared to newer cars with lower mileage.
+
+
+The histogram of vehicle age shows the distribution of ages of vehicles in the dataset. From the plot, we can observe the following:
+
+Most of the vehicles in the dataset are relatively young, with ages ranging from 0 to around 20 years.
+There are fewer vehicles with ages between 20 and 40 years.
+Only a small number of vehicles have ages greater than 40 years.
+This distribution provides insights into the age distribution of vehicles in the dataset, which can be valuable for understanding the composition of the vehicle population and for further analysis or modeling tasks.
+
+![image](https://github.com/Soha1950/As11.1/assets/160794678/156636bc-0dd9-4308-b00c-e19f1cf652e3)
+
+The histogram of vehicle age shows the distribution of ages of vehicles in the dataset. From the plot, we can observe the following:
+
+Most of the vehicles in the dataset are relatively young, with ages ranging from 0 to around 20 years.
+There are fewer vehicles with ages between 20 and 40 years.
+Only a small number of vehicles have ages greater than 40 years.
+This distribution provides insights into the age distribution of vehicles in the dataset, which can be valuable for understanding the 
+
+
+
+
+
