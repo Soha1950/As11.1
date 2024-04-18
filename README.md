@@ -1,23 +1,33 @@
-# As11.1
- Assignment 11.1
-![image](https://github.com/Soha1950/As11.1/assets/160794678/4f665d1e-aa00-4d1c-97cf-3ee6dc80ec7f)
+
+1. Business Understanding Phase:
+Identify the requirements and constraints of the used car dealership.
+The goal is to build a predictive model that can estimate the price of a used car based on its characteristics, such as 'year', 'manufacturer', 'model', 'condition', 'cylinders', 'fuel', 'odometer', 'transmission', 'drive', 'size', 'type', 'paint_color', and 'state'.
 
 
-the correlation coefficient between 'price' and 'year' is approximately 0, indicating a very weak correlation between the price of a car and the year it was manufactured.
-Similarly, the correlation coefficient between 'price' and 'odometer' is approximately -0.16, indicating a weak negative correlation between the price of a car and its mileage (odometer reading). This suggests that as the odometer reading increases (indicating higher mileage), the price of the car tends to decrease slightly.
+2. Data Understanding Phase:
+Gather and explore the dataset containing information on used cars.
+Assess the quality of the data and identify any issues or anomalies.
+Gain insights into the variables and their relationships with car prices.
+
+3. Data Preparation Phase:
+In the data preparation phase, the dataset is cleaned, transformed, and formatted to create the final dataset suitable for analysis. This includes tasks such as handling missing values, encoding categorical variables, scaling numerical features, and Cleaning the data by addressing missing values, outliers, and inconsistencies.
+
+4. Modeling Phase:
+The modeling phase focuses on selecting appropriate regression algorithms and building predictive models to estimate car prices based on various features such as year, manufacturer, model, condition, cylinders, fuel type, odometer reading, etc.
+
+5. Evaluation Phase:
+Validate the models' effectiveness in predicting car prices and identify any limitations or areas for improvement.
+During the evaluation phase, the performance of the trained regression models is assessed using appropriate evaluation metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), or Root Mean Squared Error (RMSE). The goal is to identify the model(s) that provide the most accurate predictions of car prices.
+
+6. Deployment Phase:
+Deploy the selected models for use in the used car dealership's pricing strategy.
+Communicate the findings and recommendations to stakeholders, ensuring clear understanding and buy-in.
+By following the CRISP-DM methodology, we can systematically uncover insights into the key drivers of used car prices and provide actionable recommendations to the client based on data-driven analysis.
+Once a satisfactory model is selected, it can be deployed for practical use by the used car dealership. This may involve integrating the model into their existing systems or providing tools for the dealership staff to use the model to estimate car prices for customers.
 
 
-![image](https://github.com/Soha1950/As11.1/assets/160794678/50fc204a-4cd7-40bd-ae83-8f294232c661)
 
-Odometer Reading (Mileage):
 
-The x-axis represents the odometer reading of the cars, which indicates their mileage.
-The odometer reading is scaled from 0 to approximately 1e7 (10 million), covering a wide range of mileage values.
-Price of Cars:
-
-The y-axis represents the prices of the cars.
-The prices of cars are scaled from 0 to approximately 3.5, indicating the range of prices in the dataset.
-Distribution of Data:
 
 
 ![image](https://github.com/Soha1950/As11.1/assets/160794678/85b44635-1c10-467e-acc3-6175a8e0956f)
