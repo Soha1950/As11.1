@@ -83,14 +83,40 @@ There are fewer vehicles with ages between 20 and 40 years.
 Only a small number of vehicles have ages greater than 40 years.
 This distribution provides insights into the age distribution of vehicles in the dataset, which can be valuable for understanding the composition of the vehicle population and for further analysis or modeling tasks.
 
-![image](https://github.com/Soha1950/As11.1/assets/160794678/156636bc-0dd9-4308-b00c-e19f1cf652e3)
 
-The histogram of vehicle age shows the distribution of ages of vehicles in the dataset. From the plot, we can observe the following:
+![image](https://github.com/Soha1950/As11.1/assets/160794678/41e34c3d-5ded-4320-ab44-6d6913047a24)
 
-Most of the vehicles in the dataset are relatively young, with ages ranging from 0 to around 20 years.
-There are fewer vehicles with ages between 20 and 40 years.
-Only a small number of vehicles have ages greater than 40 years.
-This distribution provides insights into the age distribution of vehicles in the dataset, which can be valuable for understanding the 
+In this bar chart illustrating feature importances derived from the Linear Regression model, the title status feature once again emerges as the most influential determinant of used car prices. Following closely are the condition, type, and fuel type of the vehicle, which continue to demonstrate substantial importance in price estimation.
+
+Interestingly, similar to the Random Forest Regression model, the odometer reading displays a negative importance in the Linear Regression model as well. This suggests that while mileage traditionally plays a crucial role in determining car prices, its significance may be diminished or even reversed under certain circumstances, as indicated by this model.
+
+Other features such as VIN, paint color, and model maintain moderate importance, while regional and manufacturer factors exhibit relatively lower importance, consistent with the findings from the Random Forest Regression analysis. This nuanced understanding of feature importance underscores the multifaceted nature of pricing dynamics in the used car market, enabling stakeholders to make informed decisions when devising pricing strategies and assessing the value of vehicles.
+
+
+![image](https://github.com/Soha1950/As11.1/assets/160794678/d00e45df-a52c-4a04-a55d-64a631626dbf)
+
+In the bar chart representing feature importances obtained from the Decision Tree Regressor model, the paint color feature emerges as the most influential factor affecting used car prices. This highlights the significance of aesthetics and personal preferences in shaping consumer decisions within the automotive market.
+
+Following closely behind are the VIN (Vehicle Identification Number) and odometer reading, both of which hold substantial importance in pricing determination. These features provide crucial insights into the vehicle's history and usage, thereby influencing its perceived value in the market.
+
+Manufacturer, region, and vehicle type also exhibit notable importance, suggesting that factors such as brand reputation, geographic location, and vehicle category play significant roles in price variability. Additionally, the model of the car holds moderate importance, underscoring the impact of specific vehicle models on pricing dynamics.
+
+
+![image](https://github.com/Soha1950/As11.1/assets/160794678/6ec49e29-d8d7-4f4d-8800-58e630bc41dc)
+
+
+In the feature importances chart generated from the Random Forest Regression model, the VIN (Vehicle Identification Number) feature stands out as the most significant determinant of used car prices. This underscores the importance of vehicle history and individual identification in influencing pricing decisions within the automotive market.
+
+Following VIN, the odometer reading emerges as the second most influential factor. This aligns with common expectations, as mileage often serves as a key indicator of a vehicle's wear and tear, directly impacting its perceived value in the secondary market.
+
+The year of manufacture also holds considerable importance, reflecting the market's tendency to assign higher values to newer vehicles. This highlights the role of vehicle age in pricing dynamics and consumer preferences.
+
+Other features such as car model, region, and paint color exhibit moderate importance, suggesting their influence on pricing variations. Additionally, factors like transmission type, state, and vehicle condition contribute to the overall understanding of pricing determinants, albeit to a lesser extent.
+
+Overall, this analysis provides valuable insights into the factors driving used car prices, enabling stakeholders to make informed decisions in pricing strategies and market positioning.
+
+
+Other features such as transmission type, year of manufacture, and vehicle size maintain relatively lower importance but still contribute to the overall understanding of pricing determinants in the used car market. This comprehensive analysis of feature importances facilitates a deeper understanding of the key drivers behind pricing variations, empowering stakeholders to make informed decisions in pricing strategies and market positioning.
 
 
 
