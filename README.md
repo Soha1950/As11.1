@@ -5,25 +5,30 @@ The goal is to build a predictive model that can estimate the price of a used ca
 
 
 2. Data Understanding Phase:
-Gather and explore the dataset containing information on used cars.
-Assess the quality of the data and identify any issues or anomalies.
-Gain insights into the variables and their relationships with car prices.
+During the data understanding phase, I examined a dataset that contains information on used cars. This includes assessing data quality through various visualizations, examining correlations and relationships between features, and identifying anomalies or issues in the dataset.
 
 3. Data Preparation Phase:
-In the data preparation phase, the dataset is cleaned, transformed, and formatted to create the final dataset suitable for analysis. This includes tasks such as handling missing values, encoding categorical variables, scaling numerical features, and Cleaning the data by addressing missing values, outliers, and inconsistencies.
+During the data preparation phase, I refined the dataset by cleaning it, standardizing, and constraining the price column between 200,000 and 400,000 to form the final dataset appropriate for analysis. Additionally, I performed tasks such as managing missing values, encoding categorical variables, scaling numerical features, and rectifying data by addressing missing values, outliers, and inconsistencies
 
 4. Modeling Phase:
-The modeling phase focuses on selecting appropriate regression algorithms and building predictive models to estimate car prices based on various features such as year, manufacturer, model, condition, cylinders, fuel type, odometer reading, etc.
+ Linear Regression, Decision Tree Regression, and Random Forest Regression. Here are the Mean Squared Error (MSE) values obtained for each model:
+
+Linear Regression:
+
+Mean Squared Error: 0.06756854315775475
+Decision Tree Regression:
+
+Mean Squared Error: 0.006712767229488695
+Random Forest Regression:
+
+Mean Squared Error: 0.012299407487930819
+Lower values of MSE indicate better model performance, as they represent a smaller difference between the predicted and actual prices. Based on the MSE values, it appears that the Decision Tree Regression model performs the best among the three models, as it has the lowest MSE
 
 5. Evaluation Phase:
-Validate the models' effectiveness in predicting car prices and identify any limitations or areas for improvement.
-During the evaluation phase, the performance of the trained regression models is assessed using appropriate evaluation metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), or Root Mean Squared Error (RMSE). The goal is to identify the model(s) that provide the most accurate predictions of car prices.
+ In the evaluation stage, I assessed the efficacy of the trained regression models utilizing the mean squared error (MSE) evaluation metric. Consequently, the decision tree model demonstrated good performance in predicting the car prices.
 
 6. Deployment Phase:
-Deploy the selected models for use in the used car dealership's pricing strategy.
-Communicate the findings and recommendations to stakeholders, ensuring clear understanding and buy-in.
-By following the CRISP-DM methodology, we can systematically uncover insights into the key drivers of used car prices and provide actionable recommendations to the client based on data-driven analysis.
-Once a satisfactory model is selected, it can be deployed for practical use by the used car dealership. This may involve integrating the model into their existing systems or providing tools for the dealership staff to use the model to estimate car prices for customers.
+Utilizing the decision tree model to inform the pricing strategy for the second-hand car agency, I discerned crucial insights. Within this model, the odometer feature and the car model emerged as pivotal factors influencing pricing decisions. However, upon transitioning to the random forest regression model, the significance shifted towards the odometer and car color features. Conversely, the linear regression model produced markedly distinct outcomes, including instances of negative values. Notably, the year of manufacture and the condition of the vehicle surfaced as primary considerations within this model's framework. This nuanced understanding underscores the multifaceted nature of the pricing dynamics and highlights the necessity of employing diverse analytical approaches to extract comprehensive insights for informed decision-making
 
 
 
