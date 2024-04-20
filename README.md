@@ -119,6 +119,24 @@ Overall, this analysis provides valuable insights into the factors driving used 
 Other features such as transmission type, year of manufacture, and vehicle size maintain relatively lower importance but still contribute to the overall understanding of pricing determinants in the used car market. This comprehensive analysis of feature importances facilitates a deeper understanding of the key drivers behind pricing variations, empowering stakeholders to make informed decisions in pricing strategies and market positioning.
 
 
+![image](https://github.com/Soha1950/As11.1/assets/160794678/c3417dcf-8a64-4c16-a6e8-4638b7029044)
+
+Mean Square Error (MSE):
+
+A lower MSE indicates better performance, here showing up to two decimal places of 0 is a perfect fit.
+
+An R2 score of 1.0 indicates that the model explains all the variation in the response data around its mean.
+
+The R2 score of 0.9957 for the test set indicates that my model explains approximately 99.57% of the variance of the test data, which is excellent.
+Given that my MSE is low for the test set and the R2 score is close to 1, my model seems to perform very well.
+Send feedback
+Side panels
+History
+Saved
+Contribute
+
+
+
 
 
 
