@@ -11,15 +11,23 @@ During the data understanding phase, I examined a dataset that contains informat
 During the data preparation phase, I refined the dataset by cleaning it, standardizing, and constraining the price column between 200,000 and 400,000 to form the final dataset appropriate for analysis. Additionally, I performed tasks such as managing missing values, encoding categorical variables, scaling numerical features, and rectifying data by addressing missing values, outliers, and inconsistencies
 
 4. Modeling Phase:
- Linear Regression, Decision Tree Regression, and Random Forest Regression. Here are the Mean Squared Error (MSE) values obtained for each model:
+ Linear Regression, Decision Tree Regression, and Random Forest Regression. Here are the Mean Squared Error (MSE) and R-squared (R2) Score values obtained for each model:
 
-Linear Regression:
+###Linear Regression:
 
-Mean Squared Error: 0.06756854315775475
-Decision Tree Regression:
+Mean Squared Error train: 0.015240264698336378
+ r2_score train : 0.7850007548853112
+Mean Squared Error test: 0.04254728253312454
+ r2_score test : 0.42424480188466396
+ 
+###Decision Tree Regression:
 
-Mean Squared Error: 0.006712767229488695
-Random Forest Regression:
+Mean Squared Error train: 0.0
+r2_score train: 1.0
+Mean Squared Error test: 0.0003154947184088218
+r2_score test: 0.9957306856446027
+
+###Random Forest Regression:
 
 Mean Squared Error: 0.012299407487930819
 Lower values of MSE indicate better model performance, as they represent a smaller difference between the predicted and actual prices. Based on the MSE values, it appears that the Decision Tree Regression model performs the best among the three models, as it has the lowest MSE
