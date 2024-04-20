@@ -121,19 +121,29 @@ Other features such as transmission type, year of manufacture, and vehicle size 
 
 ![image](https://github.com/Soha1950/As11.1/assets/160794678/c3417dcf-8a64-4c16-a6e8-4638b7029044)
 
-Mean Square Error (MSE):
+I have applied three different regression models to my data and evaluated their performance using cross-validation. Here is a summary of the results:
 
-A lower MSE indicates better performance, here showing up to two decimal places of 0 is a perfect fit.
+Linear regression:
+Crossover R-squared score (CV R2): 0.484
+Mean square error: 0.038
+Decision Tree Regression:
+CV score R2: 0.004
+Mean squared error: 0.07
+Random Forest Regression:
+CV score R2: 0.055
+Mean squared error: 0.06
+Let's interpret these results:
 
-An R2 score of 1.0 indicates that the model explains all the variation in the response data around its mean.
-
-The R2 score of 0.9957 for the test set indicates that my model explains approximately 99.57% of the variance of the test data, which is excellent.
-Given that my MSE is low for the test set and the R2 score is close to 1, my model seems to perform very well.
-Send feedback
-Side panels
-History
-Saved
-Contribute
+Linear regression:
+The CV R2 score of 0.484 indicates that the linear regression model explains approximately 48.4% of the variance of the target variable. This indicates a moderate level of predictive power.
+The mean squared error is relatively low at 0.038, indicating that the model predictions are generally close to the true values.
+Decision Tree Regression:
+A CV R2 score of 0.004 indicates that the decision tree model explains very little of the variance of the target variable. It performs poorly in capturing basic patterns in the data.
+The mean squared error is greater than 0.07 compared to linear regression, which indicates a greater difference between the predicted and actual values.
+Random Forest Regression:
+The CV R2 score of 0.055 indicates slightly better performance than the decision tree but is still relatively low compared to linear regression.
+The mean squared error of 0.06 is similar to the decision tree, indicating that the predictions of the random forest model also have a significant margin of error.
+Based on these results, it seems that the linear regression model is the most effective model among these three models in terms of prediction accuracy. If the decision tree model is not cross-validated, it is the best model.
 
 
 
